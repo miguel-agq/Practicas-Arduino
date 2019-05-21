@@ -1,4 +1,4 @@
-## Práctica 1: Encender y apagar un led
+## Práctica 2: Encender y apagar 3 leds de forma consecutiva
 
 En la práctica se pretende encender de forma consecutiva 3 leds de colores, con la ayuda de un Arduino uno.
 
