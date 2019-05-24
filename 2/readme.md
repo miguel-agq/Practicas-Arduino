@@ -21,25 +21,9 @@ _En nuestro código utilizamos los siguientes métodos:_
 
 ```cpp
   pinMode(pin, mode);
-``` 
-se le pasan 2 parámetros, el primero será el número del pin que usaremos, en nuestro caso el número 13, y el segundo parámetro es el modo , este puede ser de INPUT, de OUTPUT y de INPUT_PULLUP,  no retorna nada.
-
-En nuestra demostración usaremos el modo OUTPUT ya que el led solo recibe.
-
-```cpp
   digitalWrite(pin, value);
-```
-se le pasan 2 parámetros, el primero será el número del pin que usaremos, en nuestro caso el número 13, y el segundo el parámetro de su valor, este puede ser, HIGH o LOW.
-
-En nuestra demostración usaremos los dos valores, el HIGH para encender nuestro led y el LOW para apagarlo.
-
-```cpp
   delay(ms);
 ```
-se le pasa un parámetro, que viene a ser en milisegundos, el método lo que hace es “esperar” o “dormir” durante ese periodo de tiempo.
-
-Se usara pasa mantener la luz apagada y encendida durante un intervalo de tiempo deseado. 
-
 ---
 
 En la siguiente versión 2b se modifica el código para darle un intervalo de cambio más corto, que gracias a un bucle for esta se estará incrementando poco a poco para obtener una velocidad entre cada luz más rápida hasta llegar a un límite de 100ms
