@@ -1,4 +1,4 @@
-## Práctica 1: Encender y apagar un led
+## Práctica 3: Encender y apagar 4 leds de forma consecutiva con sonido.
 
 En la práctica se pretende encender 4 leds y luego emitir un sonido con el buzzer, con la ayuda de un Arduino uno.
 
