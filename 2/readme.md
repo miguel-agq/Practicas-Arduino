@@ -17,10 +17,6 @@ x3 led.
 
 ##### Procedimiento
 
-Para realizar esta práctica se conecta el led al arduino por medio de los cables, el led que tiene dos patitas, una larga (conectada al pin 13) y una corta (conectada a tierra), pero a diferencia del caso anterior para que los led funcionen correctamente y no le demos demasiada electricidad
-usaremos resistencias para nuestra conexión de tierra
-
-
 _En nuestro código utilizamos los siguientes métodos:_
 
 ```cpp
